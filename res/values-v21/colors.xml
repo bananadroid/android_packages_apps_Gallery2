@@ -53,9 +53,9 @@
     <color name="floating_action_button_touch_tint">#F44336</color>
     <color name="floating_action_button_icon_color">#ffffff</color>
 
-    <color name="primary">#2196F3</color>
-    <color name="primary_dark">#1976D2</color>
-    <color name="primary_light">#BBDEFB</color>
+    <color name="primary">@*android:color/notification_material_background_color</color>
+    <color name="primary_dark">@color/primary</color>
+    <color name="primary_light">@color/primary</color>
     <color name="accent">@color/primary</color>
     <color name="textColor">#ffffff</color>
     <color name="photo_overlay">#66000000</color>
